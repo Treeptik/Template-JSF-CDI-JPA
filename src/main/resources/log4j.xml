@@ -24,9 +24,9 @@
 	</logger>
 
 
-	<!-- <logger name="org.hibernate"> -->
-	<!-- <level value="DEBUG" /> -->
-	<!-- </logger> -->
+	<logger name="org.hibernate">
+	<level value="DEBUG" />
+</logger>
 
 	<!-- <logger name="org.hibernate.SQL"> -->
 	<!-- <level value="DEBUG" /> -->
