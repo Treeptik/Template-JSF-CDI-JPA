@@ -27,14 +27,14 @@ public class ToDoController implements Serializable {
 	public String save() throws ServiceException {
 		getToDoService().add(toDo);
 		toDo = new ToDo();
-		return "todos";
+		return "list";
 	}
 
 	public String delete() throws ServiceException {
 		toDo = toDos.getRowData();
 		getToDoService().delete(toDo.getId());
 		toDo = new ToDo();
-		return "todos";
+		return "list";
 
 	}
 
